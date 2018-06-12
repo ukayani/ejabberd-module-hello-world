@@ -36,7 +36,7 @@ process_subscription(_, User, _, JID1,
 
     ?INFO_MSG("--------------------------------------------", []),
     ?INFO_MSG("--- Subscription Initiated -----------------", []),
-    ?INFO_MSG("~p is trying to subscribe to ~p", [SUser, SJID]),
+    ?INFO_MSG("~p recieved a subscription request from ~p", [SUser, SJID]),
     ?INFO_MSG("--------------------------------------------", []);
 
 process_subscription(_, User, _Server, JID1,
@@ -47,7 +47,7 @@ process_subscription(_, User, _Server, JID1,
 
     ?INFO_MSG("--------------------------------------------", []),
     ?INFO_MSG("--- Subscription Accepted -----------------", []),
-    ?INFO_MSG("~p is subscribed to ~p", [SUser, SJID]),
+    ?INFO_MSG("~p accepted ~p's request", [SJID, SUser]),
     ?INFO_MSG("--------------------------------------------", []);
 
 process_subscription(_Direction, _User, _Server, _JID1,
