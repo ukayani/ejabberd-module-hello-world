@@ -1,0 +1,5 @@
+author: "Testing <test@gmail.com>"
+category: "example"
+summary: "Simple Hello world module to show configuration and hooks"
+home: "https://github.com/processone/ejabberd-contrib/tree/master/"
+url: "git@github.com:processone/ejabberd-contrib.git"

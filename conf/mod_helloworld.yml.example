@@ -1,0 +1,4 @@
+# url
+modules:
+  mod_helloworld:
+    url: "http://test.com"
